@@ -1,0 +1,7 @@
+1.All users details(update,delete)  *
+2.Add courses    *
+3.Add Blog       * 
+4.Add Admins     *
+5.Forget Password details    *
+6.courses purchase details   *
+7.users has certification details  *

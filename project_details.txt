@@ -1,0 +1,16 @@
+************************Project Details***********************
+
+- Courses(details, price ,timing)
+		* Java
+		* C++
+		* Data-Structure
+		* React-js
+		* Node-js
+		* Docker
+		* Jenkins
+		* Dev-Ops
+		* puppet online training
+- new Technology Articles
+- posts
+- roadmap agar dena ho to regarding languages
+- 

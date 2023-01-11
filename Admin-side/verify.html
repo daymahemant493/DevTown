@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="png" href="\Logo\Circle_1980x1980.png" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>DevTown-Admin-Login</title>
+  </head>
+  <body class="bg-[#dcdbdb] flex justify-center items-center h-screen">
+    <div class="rounded-lg flex flex-wrap">
+        <div class="left w-[550px] p-14 bg-gradient-to-tl from-[#759DEA] to-[#30559E] rounded-tl-xl rounded-bl-xl flex flex-wrap justify-center">
+            <div class="image mt-8 w-auto h-auto">
+                <img src="\Logo\main_logo_part.png" alt="" class="w-[350px]" />
+            </div>
+            <div class="text text-6xl mt-6 mb-10 text-white font-serif">
+                <p>DevTown</p>
+            </div>
+        </div>
+        <div class="right rounded-tr-xl rounded-br-xl p-16 w-[550px] bg-white">
+            <p class="text-4xl font-bold">Verification Email</p>
+            <p class="text-gray-600 text-lg mt-2">Sign into your pages account</p>
+            <form action="index.html">
+                <div class=" text-lg flex flex-col"> 
+                    <div class="input text-lg flex flex-col relative">
+                        <input type="text" name="security_code" class="email border border-gray-500 py-2 px-4 rounded-md focus:outline-[#30559E] mt-8 peer" placeholder="Enter Your Email..."/>
+                        <span class="absolute text-md pl-1 pr-1 mx-2 top-4 bg-white peer-focus:text-[#30559E] text-gray-500">Security Code</span>
+                    </div>
+                </div>
+                <div class="button mt-8">
+                    <input type="submit" class="w-full bg-[#30559E] p-3 text-white text-lg rounded-md border border-[#30559E] hover:text-[#30559E] hover:bg-transparent font-medium" value="Verify"/>
+                </div>
+            </form>
+            <div class="flex justify-center mt-8">
+                <img src="\Logo\OR_new.png" alt="" class="w-96">
+            </div>  
+            <div class="mt-8">
+                <ul class="flex justify-between">   
+                    <li><a href="https://www.facebook.com/" target="_blank"><img src="\Logo\facebook.png" alt="" class="w-10 mx-10"></a></li>
+                    <li><a href="https://accounts.google.com/" target="_blank"><img src="\Logo\google.png" alt="" class="w-10 mx-10"></a></li>
+                    <li><a href="https://twitter.com/i/flow/login" target="_blank"><img src="\Logo\twitter.png" alt="" class="w-10 mx-10"></a></li>
+                    <li><a href="https://www.linkedin.com/login/" target="_blank"><img src="\Logo\linkedin.png" alt="" class="w-10 mx-10"></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+  </body>
+</html>
